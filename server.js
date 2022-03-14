@@ -8,6 +8,6 @@ app.use(express.static('./dist/new-login'
 ));
 
 app.get('/*', (req, res) =>
-    res.sendFile('index.html', {root: 'dist/new-login/'}),
+    res.sendFile('index.html', {root: 'dist/my-first-nav-bar/'}),
 );
 app.listen(process.env.PORT || 8080);
